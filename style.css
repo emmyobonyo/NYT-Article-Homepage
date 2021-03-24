@@ -1,0 +1,330 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  margin: 0;
+  align-items: center;
+  height: 50px;
+}
+
+.nav-items {
+  display: flex;
+  margin: 5px;
+}
+
+.log-in {
+  margin-left: 10px;
+  background-color: #396C93;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.subscribe-now {
+  background-color: #396C93;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.search-icon {
+  margin-right: 10px;
+  align-self: center;
+  border: none;
+  background-color: white;
+}
+
+.search-icon:hover {
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Header */
+
+header {
+  width: 50%;
+  margin: auto;
+  font-style: italic;
+}
+
+.header-icons {
+  margin-top: 30px;
+}
+
+.social-icon {
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+/* Image Section banner */
+
+#image-banner {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.image-banner {
+  width: 100%;
+}
+
+figcaption{
+  width: 80%;
+  margin-top: 15px;
+}
+
+span {
+  color: gray;
+}
+
+/* Main Section */
+
+#main {
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.author {
+  margin-bottom: 40px;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.sign-up p {
+  width: 89%;
+}
+
+.sign-up span {
+  font-weight: bold;
+  color: black;
+}
+
+.sign-up button {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+.content {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.shorter {
+  width: 20%;
+}
+
+.blue {
+  color: rgb(89, 89, 150);
+}
+
+.thanks {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+}
+
+.special {
+  color: black;
+  font-weight: bold;
+}
+
+iframe {
+  margin-top: 20px;
+}
+
+.youtube {
+  font-size: 14px;
+}
+
+.sate-caption {
+  font-size: 14px;
+}
+
+.satelite {
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Editors picks */
+.editors-picks {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  margin-top: 30px;
+}
+
+.sidebar {
+  width: 20%;
+  align-self: center;
+  margin-left: 70px;
+}
+
+.editor-content {
+  width: 50%;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.short-ed {
+  width: 90%;
+}
+
+/* Suggested -- Newsletter */
+.suggestions {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggested-grid {
+  flex-basis: 70%;
+  border-top: 1px solid black;
+}
+
+.suggested-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-suggestions {
+  flex-basis: 20%;
+  border-top: 1px solid black;
+}
+
+.grid-item {
+  border: 1px solid black;
+  padding: 8px;
+  margin: 10px;
+}
+
+.image-1 {
+  width: 40%;
+  height: 30%;
+}
+
+.paragraph {
+  margin-top: -1px;
+  font-size: 12px;
+}
+
+.news {
+  margin-top: -12px;
+  margin-bottom: -10px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+}
+
+.suggested-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-flex {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.space-and-astronomy {
+  border-top: 1px solid black;
+  display: flex;
+}
+
+/* Footer */
+
+footer {
+  width: 90%;
+  margin: auto;
+}
+
+.bold {
+  border: 3px solid lightgrey;
+}
+
+.float-link {
+  float: right;
+}
+
+.inline {
+  display: inline;
+}
+
+.other-sections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.subscribe {
+  justify-content: left;
+  flex-basis: 15%;
+  padding: 0 10px;
+}
+.icon-inline {
+  display: inline;
+}
+
+.subscribe a {
+  margin-left: 1px;
+  border: none;
+}
+
+.top {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.other-links {
+  margin-top: 20px;
+}
+
+.blocks {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding-bottom: 40px;
+}
