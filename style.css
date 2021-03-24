@@ -26,7 +26,7 @@ nav {
 
 .log-in {
   margin-left: 10px;
-  background-color: #396C93;
+  background-color: #396c93;
   color: white;
   padding: 10px;
   border: none;
@@ -35,7 +35,7 @@ nav {
 }
 
 .subscribe-now {
-  background-color: #396C93;
+  background-color: #396c93;
   color: white;
   padding: 10px;
   border: none;
@@ -86,7 +86,7 @@ header {
   width: 100%;
 }
 
-figcaption{
+figcaption {
   width: 80%;
   margin-top: 15px;
 }
@@ -155,6 +155,7 @@ span {
 
 iframe {
   margin-top: 20px;
+  width: 100%;
 }
 
 .youtube {
@@ -298,6 +299,7 @@ footer {
   flex-basis: 15%;
   padding: 0 10px;
 }
+
 .icon-inline {
   display: inline;
 }
