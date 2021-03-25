@@ -11,12 +11,16 @@ a {
 /* Navigation */
 
 nav {
+  background-color: white;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid grey;
   margin: 0;
   align-items: center;
   height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-items {
@@ -62,6 +66,7 @@ header {
   width: 50%;
   margin: auto;
   font-style: italic;
+  margin-top: 70px;
 }
 
 .header-icons {
@@ -176,16 +181,35 @@ iframe {
 
 /* Editors picks */
 .editors-picks {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: right;
-  margin-top: 30px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
-.sidebar {
-  width: 20%;
-  align-self: center;
-  margin-left: 70px;
+.side-nav {
+  height: 30%;
+  width: 220px;
+  position: absolute;
+  z-index: -1;
+  top: 1700px;
+  left: 1075px;
+}
+
+.row-flex {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.column {
+  flex: 100%;
+}
+
+.column-flex {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.loader {
+  width: 100%;
 }
 
 .editor-content {
@@ -208,7 +232,7 @@ iframe {
 }
 
 .suggested-grid {
-  flex-basis: 70%;
+  flex-basis: 75%;
   border-top: 1px solid black;
 }
 
@@ -230,13 +254,23 @@ iframe {
 }
 
 .image-1 {
-  width: 40%;
-  height: 30%;
+  width: 30%;
+  height: 40%;
 }
 
 .paragraph {
   margin-top: -1px;
   font-size: 12px;
+}
+
+.breaking {
+  margin-top: -15px;
+  font-size: 18px;
+}
+
+.alerts {
+  margin-top: -15px;
+  font-size: 17px;
 }
 
 .news {
@@ -251,6 +285,7 @@ iframe {
 .suggested-content {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .content-flex {
@@ -259,12 +294,29 @@ iframe {
   flex-direction: column;
   padding: 10px;
   justify-content: space-between;
-  margin: 10px;
+  width: 30%;
 }
 
 .space-and-astronomy {
   border-top: 1px solid black;
   display: flex;
+}
+
+.card {
+  width: 32.5%;
+}
+
+.card-style {
+  width: 100%;
+}
+
+.card2 {
+  margin-left: 10px;
+}
+
+.sc-flex {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* Footer */
@@ -331,5 +383,19 @@ footer {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
+}
+
+.subscribe-class {
+  text-align: center;
+}
+
+.sub-bold {
+  font-weight: bold;
+  color: black;
+}
+
+.no-padding {
+  margin: 0;
+  padding: 10px;
 }
