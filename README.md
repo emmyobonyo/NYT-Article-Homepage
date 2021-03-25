@@ -2,11 +2,9 @@
 
 # New York Times Article Clone.
 
-> One paragraph statement about the project.
+This is a clone of the New York Times Article Page (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 ![screenshot](./img/ss.png)
-
-This is a clone of the New York Times Article Page (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 - The goal of the project was to be able to master floating and positioning principles, mainly using Flexbox.
 
@@ -36,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
--- Just have a computer I guess.
+- Just have a computer I guess.
 
 ## Authors
 
