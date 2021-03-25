@@ -1,65 +1,57 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# New York Times Article Clone.
 
 > One paragraph statement about the project.
 
 ![screenshot](./img/ss.png)
 
-Additional description about the project and its features.
+This is a clone of the New York Times Article Page (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+
+- The goal of the project was to be able to master floating and positioning principles, mainly using Flexbox.
+
+- The page (clone) has a navigaiton that was built with Flexbox in order to positing the elements properly.
+
+- There is also main section that includes some images, embeded videos and some texts describing in more detail what the article is about. Care to read :)
+
+- There is also a footer section that contains links to various pages around the Website.
+
+- PS: The links on this page (clone) don't work. They are mainly dummy links intended for learning purposes.
+
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- HTML
+- CSS
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+- Clone this repository onto your computer using git clone https://github.com/emmyobonyo/NYT-Article-Homepage.git
+
+- Or you can Fork it instead, and create a pull request to suggest some changes.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+-- Just have a computer I guess.
 
 ## Authors
 
-👤 **Author1**
+👤 **Emmanuel Obonyo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/emmyobonyo)
+- Twitter: [@twitterhandle](https://twitter.com/emmyobonyo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-obonyo-3728a2200/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/emmyobonyo/NYT-Article-Homepage/issues).
 
 ## Show your support
 
@@ -67,9 +59,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org) for providing the linters and README file
+- Thanks to [Teddy Livingstone](https://github.com/TedLivist) for helping me when I got stuck
 
 ## 📝 License
 
