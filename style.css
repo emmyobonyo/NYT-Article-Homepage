@@ -76,14 +76,17 @@ header {
 
 /* Image Section banner */
 
-#image-banner {
-  width: 70%;
+.image-banner {
+  width: 80%;
   margin: auto;
   margin-top: 30px;
+  display: block;
 }
 
-.image-banner {
-  width: 100%;
+.fig-image {
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
 }
 
 figcaption {
