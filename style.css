@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 70px;
 }
 
 a {
@@ -414,6 +415,11 @@ footer {
 
 .subscribe-class {
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
 }
 
 .sub-bold {
@@ -424,4 +430,8 @@ footer {
 .no-padding {
   margin: 0;
   padding: 10px;
+}
+
+.no-margin {
+  margin: 0;
 }
