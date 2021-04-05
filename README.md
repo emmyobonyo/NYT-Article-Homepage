@@ -6,7 +6,7 @@ This is a clone of the New York Times Article Page (https://www.nytimes.com/2014
 
 ![screenshot](./img/ss.png)
 
-- Live version [New York Times Clone]([@githubhandle](https://github.com/emmyobonyo))
+- Live version [New York Times Clone](https://github.com/emmyobonyo)
 - The goal of the project was to be able to master floating and positioning principles, mainly using Flexbox.
 
 - The page (clone) has a navigaiton that was built with Flexbox in order to positing the elements properly.
