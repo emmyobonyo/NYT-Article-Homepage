@@ -44,10 +44,10 @@ nav {
 }
 
 .subscribe-now {
-  background-color: #396c93;
+  background-color: rgb(224, 122, 5);
   color: white;
   padding: 10px;
-  border: none;
+  border: 1px solid greenyellow;
   border-radius: 5px;
   font-weight: bold;
 }
