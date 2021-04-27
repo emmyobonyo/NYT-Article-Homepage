@@ -435,3 +435,11 @@ footer {
 .no-margin {
   margin: 0;
 }
+
+/* ANOTHER PAGE ---------- FORM.HTML */
+
+.subscribe-form2 {
+  margin-top: 70px !important;
+  width: 50%;
+  margin: auto;
+}
