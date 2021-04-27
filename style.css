@@ -442,4 +442,17 @@ footer {
   margin-top: 70px !important;
   width: 50%;
   margin: auto;
+  background-color: lightgrey;
+  padding: 30px;
+}
+
+.fieldset-form {
+  border: 3px solid white;
+}
+
+.form-input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
 }
