@@ -460,3 +460,13 @@ footer {
 .text-area {
   width: 100%;
 }
+
+.submit {
+  color: white;
+  background-color: #444;
+  font-size: 18px;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
