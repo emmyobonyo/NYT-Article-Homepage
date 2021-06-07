@@ -456,3 +456,7 @@ footer {
   margin-top: 5px;
   padding: 5px;
 }
+
+.text-area {
+  width: 100%;
+}
