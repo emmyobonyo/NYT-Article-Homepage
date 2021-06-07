@@ -435,3 +435,38 @@ footer {
 .no-margin {
   margin: 0;
 }
+
+/* ANOTHER PAGE ---------- FORM.HTML */
+
+.subscribe-form2 {
+  margin: auto;
+  margin-top: 70px !important;
+  width: 50%;
+  background-color: lightgrey;
+  padding: 30px;
+}
+
+.fieldset-form {
+  border: 3px solid white;
+}
+
+.form-input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.text-area {
+  width: 100%;
+}
+
+.submit {
+  color: white;
+  background-color: #444;
+  font-size: 18px;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
